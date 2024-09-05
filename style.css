@@ -1,0 +1,77 @@
+body {
+    color: rgb(207, 201, 201);
+    background: rgb(34, 33, 33);
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.6;
+    padding: 0;
+}
+
+header {
+    border-bottom: solid 6px transparent; /* Espaço para o gradiente */
+    padding: 20px 0;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #004d00; /* Verde escuro para o texto do header */
+    background: rgb(34, 33, 33);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra cinza escuro */
+    border-image: linear-gradient(to right, #66ff66, #004d00); /* Verde degradê ajustado */
+    border-image-slice: 1; /* Ajusta o gradiente ao tamanho da borda */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo */
+}
+
+.header-image {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 15px; /* Espaço entre a imagem e o texto */
+    border: none; /* Remove a borda da imagem */
+    box-shadow: none; /* Remove qualquer sombra da imagem */
+}
+
+section {
+    background: rgb(62, 58, 58);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px; /* Borda arredondada para seções */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra mais forte para as seções */
+    margin-bottom: 20px;
+    border: 2px solid transparent; /* Borda fina com degradê */
+    border-image: linear-gradient(to right, #66ff66, #004d00); /* Verde degradê */
+    border-image-slice: 1; /* Ajusta o gradiente ao tamanho da borda */
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.texto h1, .texto h2 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Sombra mais forte */
+}
+
+.texto h1 {
+    font-size: 2rem;
+}
+
+.texto h2 {
+    font-size: 1.5rem;
+}
+
+.texto p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+img, iframe {
+    height: 300px;
+}
+   
